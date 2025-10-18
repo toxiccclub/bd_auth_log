@@ -49,9 +49,9 @@ pip install -r requirements.txt
 ```python
 import getpass
 
-DB_HOST = 'localhost'
-DB_NAME = 'testdb'
-DB_USER = 'postgres'
+DB_HOST = 'HOST'
+DB_NAME = 'NAME'
+DB_USER = 'USER'
 DB_PASSWORD = getpass.getpass("Введите пароль БД: ").strip()
 ```
 
