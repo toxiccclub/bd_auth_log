@@ -22,6 +22,7 @@
 ```bash
 git clone https://github.com/USERNAME/REPO_NAME.git
 cd REPO_NAME
+```bash
 #### 2. Создаём и активируем виртуальное окружение:
 ```bash
 python -m venv venv
