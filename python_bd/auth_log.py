@@ -4,9 +4,9 @@ from argon2.exceptions import VerifyMismatchError
 import getpass  # Чтобы пароль не отображался при вводе
 
 # Настройки подключения
-DB_HOST = 'localhost'
-DB_NAME = 'testdb'
-DB_USER = 'postgres'
+DB_HOST = 'HOST'
+DB_NAME = 'NAME'
+DB_USER = 'USER'
 DB_PASSWORD = getpass.getpass("Введите пароль БД: ").strip()
 
 # Инициализация Argon2
