@@ -31,10 +31,12 @@ venv\Scripts\activate
 
 # Linux/macOS
 source venv/bin/activate
+```bash
 
 ### 3. Устанавливаем зависимости:
 ```bash
 pip install -r requirements.txt
+```bash
 
 ### 4. Настраиваем подключение к базе PostgreSQL:
 В файле auth.py укажи свои данные:
@@ -44,16 +46,19 @@ DB_HOST = 'HOST'
 DB_NAME = 'NAME'        # имя вашей базы данных
 DB_USER = 'USER'       # пользователь PostgreSQL
 DB_PASSWORD = getpass.getpass("Введите пароль БД: ").strip()  # пароль
+```python
 Убедись, что база данных существует. Если нет, создай её через psql или pgAdmin:
 
 ```sql
 CREATE DATABASE testdb;
+```sql
 
 ## 🚀 Использование
 Запуск скрипта:
 
 ```bash
 python auth.py
+```bash
 
 ### После запуска появится интерактивное меню:
 Копировать код
